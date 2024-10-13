@@ -53,7 +53,7 @@
     rjmp main          ; Loop infinito
 
 
-	; Função de Delay de 1 Segundo
+	; Função de Delay de ~ 1 Segundo
 	
 	delay_1s:
     ldi temp1, 60      ; Número de loops externos
