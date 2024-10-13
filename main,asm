@@ -74,50 +74,50 @@ delay_loop3:
 		
 	; Número 1
 	numero_1:
-    ldi r18, 0xB8      ; Carrega o valor hexadecimal 0xB8 no registrador R18
+    ldi r18, 0xB8      ; Carrega o valor hexadecimal no registrador R18
     out PORTD, r18     ; Envia o valor para PORTD
-    ldi r19, 0x10      ; Carrega o valor hexadecimal 0x10 no registrador R19
+    ldi r19, 0x10      ; Carrega o valor hexadecimal no registrador R19
     out PORTB, r19     ; Envia o valor para PORTB
 	ret
 
 	; Número 2
 	numero_2:
-    ldi r18, 0x78      ; Carrega o valor hexadecimal 0x78 no registrador R18
+    ldi r18, 0x78      ; Carrega o valor hexadecimal no registrador R18
     out PORTD, r18     ; Envia o valor para PORTD
-    ldi r19, 0x1B      ; Carrega o valor hexadecimal 0x1B no registrador R19
+    ldi r19, 0x1B      ; Carrega o valor hexadecimal no registrador R19
     out PORTB, r19     ; Envia o valor para PORTB
 	ret
 
 	
-    ; Número 3
+        ; Número 3
 	numero_3:
-    ldi r18, 0xF8      ; Carrega o valor hexadecimal 0x78 no registrador R18
+    ldi r18, 0xF8      ; Carrega o valor hexadecimal no registrador R18
     out PORTD, r18     ; Envia o valor para PORTD
-    ldi r19, 0x19      ; Carrega o valor hexadecimal 0x1B no registrador R19
+    ldi r19, 0x19      ; Carrega o valor hexadecimal no registrador R19
     out PORTB, r19     ; Envia o valor para PORTB
 	ret    
 	
 	; Número 4
 	numero_4:
-    ldi r18, 0xF8      ; Carrega o valor hexadecimal 0x78 no registrador R18
+    ldi r18, 0xF8      ; Carrega o valor hexadecimal no registrador R18
     out PORTD, r18     ; Envia o valor para PORTD
-    ldi r19, 0x14      ; Carrega o valor hexadecimal 0x1B no registrador R19
+    ldi r19, 0x14      ; Carrega o valor hexadecimal no registrador R19
     out PORTB, r19     ; Envia o valor para PORTB
 	ret    	
 	
 	; Número 5
 	numero_5:
-    ldi r18, 0xF0      ; Carrega o valor hexadecimal 0x78 no registrador R18
+    ldi r18, 0xF0      ; Carrega o valor hexadecimal no registrador R18
     out PORTD, r18     ; Envia o valor para PORTD
-    ldi r19, 0x1D      ; Carrega o valor hexadecimal 0x1B no registrador R19
+    ldi r19, 0x1D      ; Carrega o valor hexadecimal no registrador R19
     out PORTB, r19     ; Envia o valor para PORTB
 	ret
 
 	; Número 6
-    numero_6:
-	ldi r18, 0xF0      ; Carrega o valor hexadecimal 0x78 no registrador R18
+        numero_6:
+	ldi r18, 0xF0  ; Carrega o valor hexadecimal no registrador R18
     out PORTD, r18     ; Envia o valor para PORTD
-    ldi r19, 0x1F      ; Carrega o valor hexadecimal 0x1B no registrador R19
+    ldi r19, 0x1F      ; Carrega o valor hexadecimal no registrador R19
     out PORTB, r19     ; Envia o valor para PORTB
 	ret    	
 	
