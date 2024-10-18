@@ -28,7 +28,7 @@
 	; Delay
     rcall delay_1s
 
-    rcall numero_2
+    	rcall numero_2
 	; Delay
     rcall delay_1s
 
